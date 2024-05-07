@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;0,700;1,300&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@100;300;500;600;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.fs-15{
+    font-size: 150px;
+}
+.ps-10{
+    padding-left: 100px;
+}
+.pt-10{
+    padding-top: 100px;
+}
+.pt-20{
+    padding-top: 200px;
+}
+.bg-coffee{
+    background-color:rgb(59, 46, 28);
+}
+.bg-coffee-2{
+    background-color: #8f69344d;
+}
+.btn-coffee{
+    background-color:#FEC16B !important;
+    color: #000;
+}
+.text-brown{
+    color: #623A1B;
+}
+/* Navbar Section Start Here */
+
+.navbar-nav .nav-link{
+    color: #ffffffb3 !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show{
+    color: #fff !important;
+}
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    color: antiquewhite;
+    font-weight: 600;
+    transition: all ease 0.3s;
+}
+/* Navbar Section End Here */
+
+/* Hero Section Start Here */
+    .hero{
+        width: 100%;
+        height: 650px;
+        background: url(../img/banner-1.jpg);
+    }
+    .hero button{
+        border-radius: 20px;
+    }
+/* Hero Section End Here */
+/* Coffee Section Start Here  */
+.coffee{
+    background-color: #FEFAF2;
+}
+/* Coffee Section End Here  */
+
+/*  Blend Section Start Here */
+.blend .card{
+    background-color: #FEFAF2;
+    border: 5px solid #ba7844;
+    border-radius: 0px 0px 150px 150px;
+}
+/*  Blend Section End Here */
+
+/* We-are-different Section Start Here */
+.we-are-different{
+    background-color: #FEFAF2;
+}
+.we-are-different .card img{
+    padding: 10px 30px 10px 30px;
+}
+/* We-are-different Section End Here */
+
+/* Morning Section Start Here */
+.morning{
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0.5)), url(../img/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* Morning Section End Here */
+
+/* Footer Section Start Here */
+.footer{
+    font-weight: bold;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0,0,0,0.5),rgb(0, 0, 0)),url(../img/footer.jpg);
+}
+
+/* Footer Section End Here */
+
+/* Responsive Section Start Here  */
+
+/* Hero Section Start */
+
+@media screen and (max-width: 510px){
+    .hero .fs-15{
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .hero .fs-15{
+        font-size: 70px;
+    }
+}
+/* Hero Section End */
+
+/* Best Coffee Section Start */
+@media screen and (max-width: 925px){
+    .pt-10{
+       padding-top: 20px; 
+    }
+}
+/* Best Coffee Section End */
+
+/* Different Section Start */
+@media screen and (max-width: 820px){
+    .we-are-different{
+        flex-direction: column;
+    }
+    .we-are-different .col-lg-8{
+        width: 100%;
+    }
+}
+/* Different Section End */
+
+/* Amazing Section Start */
+@media screen and (max-width: 426px){
+    .morning .pt-20{
+        padding-top: 50px;
+    }
+}
+/* Amazing Section End */
+
+/* Feedback Section Start */
+@media screen and (max-width: 376px){
+    .feedback .carousel-inner .carousel-item {
+        height: 800px !important;
+    }
+}
+/* Feedback Section End */
+
+/* Footer Section Start  */
+@media screen and (max-width: 1025px){
+    .footer .container{
+        width: 100%;
+        background: linear-gradient(rgb(0, 0, 0), rgba(0,0,0,0.5),rgb(0, 0, 0)),url(../img/foot-bg.jpg);
+    }
+}
+/* Footer Section End */
+
+/* Responsive Section End Here  */
